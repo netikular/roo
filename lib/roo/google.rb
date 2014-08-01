@@ -20,8 +20,8 @@ class Roo::Google < Roo::Base
     @cell = Hash.new {|h,k| h[k]=Hash.new}
     @cell_type = Hash.new {|h,k| h[k]=Hash.new}
     @formula = Hash.new
-    @date_format = '%d/%m/%Y'
-    @datetime_format = '%d/%m/%Y %H:%M:%S'
+    @date_format = '%m/%d/%Y'
+    @datetime_format = '%m/%d/%Y %H:%M:%S'
     @time_format = '%H:%M:%S'
   end
 
